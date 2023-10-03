@@ -5,21 +5,17 @@ using namespace std;
 
 int main()
 {
-	char x;
-	cin >> x;
+	string f1, l1, f2, l2;
+	cin >> f1 >> l1 >> f2 >> l2;
 
-	if (x >= 65 && x <= 90) {
-		cout << "ALPHA" << "\n" << "IS CAPITAL" << endl;
-	}
-	else if(x >= 97 && x <= 122 )
+	if (l1 == l2)
 	{
-		cout << "ALPHA" << "\n" << "IS SMALL" << endl;
+		cout << "ARE Brothers";
 	}
-	else if (ch >= 48 && ch <= 57) {
-		
-		cout << "IS DIGIT" << endl;
+	else {
+		cout << "NOT";
 	}
-	
+
 	return 0;
 
 }
