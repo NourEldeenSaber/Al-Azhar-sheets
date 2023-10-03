@@ -11,15 +11,15 @@ int main()
 	if (x >= 65 && x <= 90) {
 		cout << "ALPHA" << "\n" << "IS CAPITAL" << endl;
 	}
-	else if(x >= 97 && x <= 122 )
+	else if (x >= 97 && x <= 122)
 	{
 		cout << "ALPHA" << "\n" << "IS SMALL" << endl;
 	}
-	else if (ch >= 48 && ch <= 57) {
-		
+	else if (x >= 48 && x <= 57) {
+
 		cout << "IS DIGIT" << endl;
 	}
-	
+
 	return 0;
 
 }
